@@ -4,7 +4,8 @@
             {{-- Kolom 1: Tentang Desa --}}
             <div>
                 <h3 class="text-xl font-bold mb-4 text-primary">
-                    {{ strip_tags($villageName->content) ?? 'Nama Desa' }}
+                    {{ strip_tags($villageName?->content) ?? 'Nama Desa' }}
+
                 </h3>
                 <p class="text-sm leading-relaxed text-dark-text/80">
                     {!! $footerAbout->content ?? 'Teks tentang desa belum diatur di admin.' !!}
@@ -52,7 +53,8 @@
 
                     <p>
                         <strong>Alamat:</strong><br>
-                        {!! strip_tags($contactAddress->content) ?? 'Alamat belum diatur.' !!}
+                        {!! strip_tags($contactAddress?->content) ?? 'Alamat belum diatur.' !!}
+
                     </p>
                     <p>
                         <strong>Email:</strong><br>
@@ -129,27 +131,28 @@
 
     {{-- Bawah Footer --}}
     <div class="mt-12 pt-6 border-t border-gray-300 text-center text-xs  text-dark-text/90">
-        <p>&copy; {{ date('Y') }} {!! strip_tags($villageName->content) ?? 'Nama Desa' !!}. Hak Cipta Dilindungi.</p>
+        <p>&copy; {{ date('Y') }} {!! strip_tags($villageName?->content) ?? 'Nama Desa' !!}
+. Hak Cipta Dilindungi.</p>
         <p class="mt-1 italic">
             Versi {{ config('app.version', '1.0.0') }} |
             Dibuat oleh
             <span class="text-primary font-medium">
-                <a href="https://www.facebook.com/share/1BGG9pfRwU/?mibextid=qi2Omg" target="_blank"
+                <a href="https://www.facebook.com/share/testing/" target="_blank"
                     rel="noopener noreferrer">
-                    NanuTech Solution
+                    SMKN 1 RANGKASBITUNG (WORKSHOP)
                 </a>
             </span>
         </p>
         <p class="mt-1">
             Ingin website desa seperti ini? Hubungi via
-            <a href="https://wa.me/+6287750124895" class="underline text-primary hover:text-primary-dark transition"
+            <a href="https://wa.me/6287840811858" class="underline text-primary hover:text-primary-dark transition"
                 target="_blank">
                 WhatsApp
             </a>
             atau kunjungi
-            <a href="https://facebook.com/nanu.ranusate"
+            <a href="https://facebook.com/SMKN1RKS"
                 class="underline text-primary hover:text-primary-dark transition" target="_blank">
-                Facebook NanuTect Solution
+                Facebook SMKN 1 RANGKASBITUNG
             </a>
         </p>
     </div>

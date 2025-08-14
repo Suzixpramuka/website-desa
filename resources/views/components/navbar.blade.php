@@ -172,8 +172,7 @@
             <x-responsive-nav-link :href="route('gallery')" :active="request()->routeIs('gallery')"
                 class="block text-white hover:bg-desa-green-700 px-3 py-2 rounded-md">Galeri</x-responsive-nav-link>
             <x-responsive-nav-link :href="route('products')" :active="request()->routeIs('products')"
-                class="block text-white hover:bg-desa-green-700 px-3 py-2 rounded-md">Produk
-                Desa</x-responsive-nav-link>
+                class="block text-white hover:bg-desa-green-700 px-3 py-2 rounded-md">Jurusan</x-responsive-nav-link>
             <x-responsive-nav-link :href="route('institutions.index')" :active="request()->routeIs('institutions.index')"
                 class="block text-white hover:bg-desa-green-700 px-3 py-2 rounded-md">Lembaga
                 Desa</x-responsive-nav-link>

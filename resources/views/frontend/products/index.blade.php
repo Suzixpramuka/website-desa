@@ -24,7 +24,7 @@
                             @if ($category && $category !== 'all')
                                 Produk Kategori {{ $category }}
                             @else
-                                Karya Terbaik Masyarakat Kami
+                                Karya Terbaik Sekolah Kami
                             @endif
                         </h3>
 

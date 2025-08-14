@@ -150,8 +150,8 @@
                 <td class="text">
                     <h2>PEMERINTAH KABUPATEN [NAMA KABUPATEN]</h2>
                     <h3>KECAMATAN [NAMA KECAMATAN]</h3>
-                    <h2>DESA ORAKERI</h2>
-                    <p>Jl. Raya Orakeri No. 123, Kode Pos: XXXX</p>
+                    <h2>SMKN 1 RANGKASBITUNG</h2>
+                    <p>Jl. Dewi Sartika No.61L, Muara Ciujung Tim., Kec. Rangkasbitung, Kabupaten Lebak, Banten 42314</p>
                 </td>
             </tr>
             <tr>
@@ -167,7 +167,7 @@
         </div>
 
         <div class="content">
-            <p class="indent">Yang bertanda tangan di bawah ini Kepala Desa Orakeri, menerangkan bahwa:</p>
+            <p class="indent">Yang bertanda tangan di bawah ini Kepala SMKN 1 Rangkasbitung, menerangkan bahwa:</p>
             <table class="details-table">
                 <tr>
                     <td>Nama</td>
@@ -205,7 +205,7 @@
                 </tr>
             </table>
 
-            <p class="indent">Yang bersangkutan benar-benar penduduk Desa Orakeri dan bermaksud untuk
+            <p class="indent">Yang bersangkutan benar-benar siswa/i SMKN 1 dan bermaksud untuk
                 {{ $keperluan_domisili }}.</p>
 
             <p class="indent">Demikian surat keterangan ini dibuat dengan sebenarnya untuk dapat dipergunakan
@@ -214,7 +214,7 @@
 
         <div class="signature">
             <div>
-                Orakeri, {{ $tanggal_surat }}<br>
+                SMKN 1, {{ $tanggal_surat }}<br>
                 {{ $jabatan_kepala_desa }}<br>
                 <br><br><br><br>
                 <div class="name">{{ $kepala_desa }}</div>

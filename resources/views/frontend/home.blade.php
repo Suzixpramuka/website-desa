@@ -266,7 +266,7 @@
                 <h2 class="text-3xl md:text-4xl font-extrabold text-accent dark:text-white mb-2">
                     Galeri {{ $villageName->content ?? 'Nama Desa' }}
                 </h2>
-                <p class="text-gray-500 dark:text-gray-300 text-sm">Dokumentasi kegiatan dan potret desa kami</p>
+                <p class="text-gray-500 dark:text-gray-300 text-sm">Dokumentasi kegiatan dan potret Sekolah kami</p>
                 <div class="mt-4 w-16 h-1 mx-auto bg-accent"></div>
             </div>
 
@@ -330,7 +330,7 @@
     <section id="lokasi" class="py-20 bg-soft-gray">
         <div class="container mx-auto px-4">
             <div class="text-center mb-16" data-aos="fade-down">
-                <h2 class="text-3xl md:text-4xl font-bold text-accent mb-4">Lokasi Kantor Desa</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-accent mb-4">Lokasi Sekolah</h2>
                 <div class="w-24 h-1 bg-accent mx-auto"></div>
             </div>
             <div class="flex flex-col lg:flex-row gap-10">

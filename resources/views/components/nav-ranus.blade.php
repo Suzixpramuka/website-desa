@@ -9,7 +9,7 @@
                             d="M11.47 2.47a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 4.06 5.03 11.03a.75.75 0 0 1-1.06-1.06l7.5-7.5Z"
                             clip-rule="evenodd" />
                     </svg>
-                    <span>Desa Orakeri</span>
+                    <span>SMKN 1 RANGKASBITUNG</span>
                 </a>
             </div>
 
@@ -21,7 +21,7 @@
                 {{-- DROPDOWN PROFIL --}}
                 <div x-data="{ open: false }" class="relative" @mouseenter="open = true" @mouseleave="open = false">
                     <button class="flex items-center gap-1 text-white hover:text-yellow-200 transition">
-                        Profil Desa
+                        Profil Sekolah
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M5.23 7.21a.75.75 0 0 1 1.06 0L10 10.92l3.71-3.71a.75.75 0 0 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.23 8.27a.75.75 0 0 1 0-1.06z"
@@ -39,7 +39,7 @@
                 {{-- DROPDOWN LAYANAN --}}
                 <div x-data="{ open: false }" class="relative" @mouseenter="open = true" @mouseleave="open = false">
                     <button class="flex items-center gap-1 text-white hover:text-yellow-200 transition">
-                        Layanan Desa
+                        Layanan Pendidikan
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M5.23 7.21a.75.75 0 0 1 1.06 0L10 10.92l3.71-3.71a.75.75 0 0 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.23 8.27a.75.75 0 0 1 0-1.06z"
@@ -123,7 +123,7 @@
             <div x-data="{ profileMobileOpen: false }">
                 <button @click="profileMobileOpen = !profileMobileOpen"
                     class="flex w-full justify-between items-center">
-                    <span>Profil Desa</span>
+                    <span>Profil Sekolah</span>
                     <svg class="w-5 h-5 transform transition-transform" :class="{ 'rotate-180': profileMobileOpen }"
                         fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd"
@@ -142,7 +142,7 @@
             <div x-data="{ layananMobileOpen: false }">
                 <button @click="layananMobileOpen = !layananMobileOpen"
                     class="flex w-full justify-between items-center">
-                    <span>Layanan Desa</span>
+                    <span>Layanan Pendidikan</span>
                     <svg class="w-5 h-5 transform transition-transform" :class="{ 'rotate-180': layananMobileOpen }"
                         fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd"

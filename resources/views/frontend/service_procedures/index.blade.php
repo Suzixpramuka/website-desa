@@ -10,7 +10,7 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     <h3 class="text-2xl font-bold mb-6 text-accent text-center" data-aos="fade-down">Panduan Layanan
-                        untuk Warga</h3>
+                        untuk Pembaca</h3>
                     <div class="space-y-6">
                         @forelse ($procedures as $index => $procedure)
                             <div class="p-5 border rounded-lg shadow-md transition hover:shadow-lg" data-aos="fade-up"

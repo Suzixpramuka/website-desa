@@ -16,7 +16,7 @@
 <body class="font-sans antialiased bg-gray-100">
     <div class="min-h-screen flex">
         <aside class="w-64 bg-gray-800 text-white p-4 space-y-4">
-            <div class="text-2xl font-bold mb-6">Admin Desa Orakeri</div>
+            <div class="text-2xl font-bold mb-6">Admin SMKN 1 Rangkasbitung</div>
             <nav>
                 <a href="{{ route('admin.dashboard') }}"
                     class="block py-2 px-3 rounded hover:bg-gray-700 {{ request()->routeIs('admin.dashboard') ? 'bg-gray-700' : '' }}">Dashboard</a>

@@ -90,7 +90,7 @@
                                       hover:bg-gray-200 dark:hover:bg-gray-600
                                       transition-colors duration-150 ease-in-out
                                       {{ request()->routeIs('admin.potentials.*') ? 'bg-gray-200 dark:bg-gray-600 font-semibold' : '' }}">
-                            Potensi Desa
+                            Potensi Sekolah
                         </a>
                     </li>
                     <li>
@@ -133,7 +133,7 @@
                                hover:bg-gray-100 dark:hover:bg-gray-700
                                focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800
                                transition-colors duration-200 ease-in-out">
-                    <span class="ms-3 font-medium">Profil Desa</span>
+                    <span class="ms-3 font-medium">Profil Sekolah</span>
                     <svg :class="{ 'rotate-90': open }"
                         class="w-4 h-4 transform transition-transform duration-200 text-gray-500 dark:text-gray-400"
                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -185,7 +185,7 @@
                                       hover:bg-gray-200 dark:hover:bg-gray-600
                                       transition-colors duration-150 ease-in-out
                                       {{ request()->route('key') == 'struktur_pemerintahan' ? 'bg-gray-200 dark:bg-gray-600 font-semibold' : '' }}">
-                            Struktur Pemerintahan
+                            Struktur Sekolah
                         </a>
                     </li>
                     <li>
@@ -195,7 +195,7 @@
                                       hover:bg-gray-200 dark:hover:bg-gray-600
                                       transition-colors duration-150 ease-in-out
                                       {{ request()->route('key') == 'sekilas_desa' ? 'bg-gray-200 dark:bg-gray-600 font-semibold' : '' }}">
-                            Sekilas Desa
+                            Sekilas Sekolah
                         </a>
                     </li>
                 </ul>
@@ -208,7 +208,7 @@
                                hover:bg-gray-100 dark:hover:bg-gray-700
                                focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800
                                transition-colors duration-200 ease-in-out">
-                    <span class="ms-3 font-medium">Layanan Desa</span>
+                    <span class="ms-3 font-medium">Layanan Pendidikan</span>
                     <svg :class="{ 'rotate-90': open }"
                         class="w-4 h-4 transform transition-transform duration-200 text-gray-500 dark:text-gray-400"
                         fill="none" stroke="currentColor" viewBox="0 0 24 24">
